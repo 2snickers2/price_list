@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenier{
+    height: 800px;
+    width: 400px;
+    margin: 0 auto;
+    
+    background: url(81fe72be8ab08437b4f5cc6cba77af53.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: contain; */
+    background-size: cover;
+
+}
+
+@media (min-width:600px){
+    .contenier{
+        background-size: contain;
+    }
+}
+@media (min-width:600px){
+    .contenier{
+        height: 700px;
+    }
+}
+@media (max-width:800px){
+    .contenier{
+        height: 900px;
+    }
+}
+
+
+.main{
+    width: 350px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 auto;
+    top: 50px;
+
+    background: #ffffff52;
+
+    position: relative;
+}
+
+.heading{
+    position: absolute;
+    top: -15px;
+    left: 80px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    align-items: baseline;
+    color: rgb(255, 235, 201);
+   
+}
+.heading > p {
+    text-align: center; 
+    align-items: center;
+   
+}
+.price_block{
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    margin-top: 30px;
+
+    display: flex;
+    
+}
+.design{
+    width: 200px;
+    height: 70px;
+    line-height: 15px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    margin: 60px 0 0 60px;
+
+
+}
+
+.price_block p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+ul li{
+    list-style-type: none;
+}
+.services{
+    width: 80%;
+    line-height: 35px;
+    height: 70%;
+}
+.price{
+    width: 20%;
+}
+.services ul :nth-child(2){
+    line-height: 18px;
+    margin:  10px 0 10px 0;
+}
+.services ul :nth-child(3){
+    line-height: 17px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.price ul :nth-child(4){
+    margin-top: 5px;
+}
+.price ul :nth-child(5){
+    margin-top: -5px;
+}
+.price ul :nth-child(7){
+    margin-top: -5px;
+}
+.price ul :nth-child(8){
+    margin-top: -8px;
+}
+.price ul :nth-child(9){
+    margin-top: -8px;
+}
+.price{
+    line-height: 40px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgb(62, 34, 34);
+}
+a{
+    text-decoration: none;
+}
+.more a{
+    color: rgb(62, 34, 34) ;
+    font-family: 'Montserrat', sans-serif;
+}
+.more{
+    margin: 60px 0 0 135px;
+}
